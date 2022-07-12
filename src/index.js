@@ -2,8 +2,8 @@ export const paintCards = () => {
   let elements = document.querySelectorAll('.item');
   elements.forEach((elem, index) =>
     index % 2 == 0
-      ? (elem.style.background = 'red')
-      : (elem.style.background = 'aqua')
+      ? (elem.style.backgroundColor = 'red')
+      : (elem.style.backgroundColor = 'aqua')
   );
 };
 
